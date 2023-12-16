@@ -1,0 +1,20 @@
+.form-row,
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 1rem;
+}
+
+input, textarea {
+  border: 0.7px solid #a8abbd;
+  border-radius: 0.5rem;
+}
+
+input{
+  height: clamp(1em, 4vh, 7em);
+  width: clamp(8em, 15vw, 20em);
+}
+
