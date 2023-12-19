@@ -14,7 +14,6 @@ input, textarea {
 }
 
 input{
-  height: clamp(1em, 4vh, 7em);
-  width: clamp(8em, 15vw, 20em);
+  height: 3em;
 }
 

@@ -1,0 +1,39 @@
+.filter-container {
+  display: flex;
+  gap: clamp(1rem, 5vw, 6rem);
+  border-bottom: 1px solid #a9a9a9;
+}
+.filter-container > a {
+  color: #808080;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tasks-count {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+.underline-indicators > * {
+  cursor: pointer;
+  border: none;
+  padding: var(--underline-gap, 0.5rem) 0;
+}
+
+/* .underline-indicators > *:hover,
+.underline-indicators > *:focus {
+  border-bottom: 0.2rem solid hsl(var(--clr-white), 0.5);
+} */
+
+.underline-indicators > *.active {
+  border-bottom: 0.2rem solid hsl(var(--clr-white), 1);
+  color: #3754db;
+  border-bottom: 3px solid #3754db;
+}

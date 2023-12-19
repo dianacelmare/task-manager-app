@@ -1,0 +1,19 @@
+.panel-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.subtitle {
+  color: #6d6c6c;
+  size: 1rem;
+}
+.title {
+  color: #101c56;
+  font-size: 28px;
+  margin: 0;
+}

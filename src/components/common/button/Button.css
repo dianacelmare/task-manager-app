@@ -1,0 +1,11 @@
+.primary-button {
+  background-color: #3754db;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 32px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  
+}

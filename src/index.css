@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(243, 243, 251, 1);
   height: 100vh;
 }
 
@@ -20,4 +19,32 @@ code {
   display: grid;
   place-items: center;
 
+}
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+
+/* make forms esier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
