@@ -32,6 +32,7 @@ const CreateTaskForm = (props) => {
     };
     // trimitem prin props catre parinte(bottom-up method)
     props.addTask(newTask);
+    
 
     console.log("Task adaugat din CreateTaskForm.jsx: ", newTask);
     resetState();

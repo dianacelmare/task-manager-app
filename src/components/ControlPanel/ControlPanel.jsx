@@ -18,13 +18,21 @@ const ControlPanel = (props) => {
     props.addTask(task);
     setIsOpen(false);
   };
+
+  const [allTasks, setAllTasks] = useState(props.dataFields); // Contains all tasks
+
   return (
     <>
       <div className="panel-container">
         <div className="text-container">
           <h3 className="title">Tasks</h3>
           <p className="subtitle">Your tasks in your space.</p>
-          <Filter dataFields={props}/>
+          <Filter
+            setTaskData={props.setTaskData}
+            cardStatus={props.cardStatus}
+            filterCards={props.filterCards}
+            data={allTasks} 
+          />
         </div>
         <div>
           <Button onClick={openModal} />

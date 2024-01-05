@@ -6,12 +6,18 @@ import EmptyListMessage from "../empty-list-message/EmptyListMessage";
 
 const TaskViewer = (props) => {
   // console.log("Task viewer props:",props.dataFields)
+
   return (
     <>
       <div className="viewer-container">
         {/* primit prin props din copil ControlPanel si trimis mai departe catre parite(App) */}
-        <ControlPanel dataFields={props.dataFields} addTask={props.addTask} />
-
+        <ControlPanel
+          setTaskData={props.setTaskData}
+          dataFields={props.dataFields}
+          addTask={props.addTask}
+          cardStatus={props.cardStatus}
+          filterCards={props.filterCards}
+        />
 
         {/* Operator ternar */}
         {props.dataFields.length > 0 ? (

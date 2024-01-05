@@ -5,6 +5,7 @@
   background-color: #f3f3fb;
   height: 100vh;
   width: 100vw;
+  min-width: 865px;
   margin: 2rem;
   padding: 3rem;
   border-radius: 1rem;

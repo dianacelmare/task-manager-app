@@ -3,16 +3,17 @@
   gap: clamp(1rem, 5vw, 6rem);
   border-bottom: 1px solid #a9a9a9;
 }
-.filter-container > a {
+.filter-container > * {
   color: #808080;
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  background-color: inherit;
 }
 
 .tasks-count {
-  width: 28px;
-  height: 28px;
+  /* width: 28px;
+  height: 28px; */
   border: none;
   border-radius: 12px;
   background-color: #f0f0f0;
