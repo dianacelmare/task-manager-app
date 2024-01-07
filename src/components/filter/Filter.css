@@ -12,14 +12,19 @@
 }
 
 .tasks-count {
-  /* width: 28px;
-  height: 28px; */
+  display: flex;
+    /* display: inline-block; */
+  aspect-ratio: 1.476;
+  height: 21px;
   border: none;
   border-radius: 12px;
   background-color: #f0f0f0;
   color: black;
-  display: inline-block;
   text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
 }
 
 .underline-indicators > * {
@@ -37,4 +42,10 @@
   border-bottom: 0.2rem solid hsl(var(--clr-white), 1);
   color: #3754db;
   border-bottom: 3px solid #3754db;
+}
+
+.active span{
+  background-color: inherit;
+  color: #3754db;
+  
 }

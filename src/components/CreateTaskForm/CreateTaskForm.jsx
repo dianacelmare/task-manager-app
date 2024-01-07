@@ -50,7 +50,7 @@ const CreateTaskForm = (props) => {
         />
       </div>
       <div className="form-row">
-        <label htmlFor="taskDate">Task Name</label>
+        <label htmlFor="taskDate">Task Date</label>
         <input
           type="date"
           id="taskDate"

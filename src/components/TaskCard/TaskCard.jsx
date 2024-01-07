@@ -23,10 +23,10 @@ const TaskCard = (props) => {
         <p className="id">{props.id}</p>
         <Badge status={props.status} color={styleBadge()} />
       </div>
-      <div className="taskContent">{props.description}</div>
+      <div className="taskContent bold fs-16">{props.description}</div>
       <div className="taskFooter">
-        <p className="dueDateLabel">Due Date</p>
-        <p className="dueDate">{props.dueDate.toLocaleDateString()}</p>
+        <p className="dueDateLabel fc-light-grey">Due Date</p>
+        <p className="dueDate bold">{props.dueDate.toLocaleDateString()}</p>
       </div>
     </div>
   );

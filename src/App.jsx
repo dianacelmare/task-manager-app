@@ -55,8 +55,6 @@ const App = () => {
   //Spread operator will display all the values from our category section of our data while
   //Set will only allow the single value of each kind to be displayed
   const cardStatus = [...new Set(data.map((val) => val.status))];
-  // console.log(cardStatus[1]);
-  console.log(cardStatus);
 
   //curstat= current status
   const filterCards = (curstat) => {
@@ -68,7 +66,7 @@ const App = () => {
   };
 
   return (
-    <div className="page-container">
+    <div>
       {/* Primit din copil(TaskViewer) si acum apelam functa onAddTask */}
       <TaskViewer
         dataFields={taskData}

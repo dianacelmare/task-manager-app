@@ -27,18 +27,20 @@ p {
   font-size: 14px;
 }
 
-.status {
-  color: #808080;
-  background-color: #f2f2f2;
-  padding: 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 700;
-}
-
 .taskFooter {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+/* Utility classes */
+.bold {
+  font-weight: 700;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fc-light-grey {
+  color: #999999;
 }

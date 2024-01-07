@@ -1,3 +1,12 @@
+.form-container {
+  background-color: white;
+  box-shadow: 0 30px 60px rgba(32, 56, 85, 0.15);
+  padding: 0.5rem 0.5rem;
+  max-height: 60%;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
 .panel-container {
   display: flex;
   justify-content: space-between;
